@@ -1,0 +1,33 @@
+﻿<Window x:Class="AppUsers.AddTask"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AppUsers"
+        mc:Ignorable="d"
+        Title="AddTask" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="250"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <TextBlock Grid.Column="0" Grid.Row="0" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="30" x:Name="one"></TextBlock>
+        <TextBlock Grid.Column="0" Grid.Row="1" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="30" x:Name="two"></TextBlock>
+        <TextBlock Grid.Column="0" Grid.Row="2" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="30" x:Name="three"></TextBlock>
+        <TextBlock Grid.Column="0" Grid.Row="3" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="30" x:Name="forr"></TextBlock>
+        <TextBox x:Name="one_input" Grid.Column="1" Grid.Row="0" Height="50" Margin="5"></TextBox>
+        <TextBox x:Name="two_input" Grid.Column="1" Grid.Row="1" Height="50" Margin="5"></TextBox>
+        <TextBox x:Name="three_input" Grid.Column="1" Grid.Row="2" Height="50"  Margin="5"></TextBox>
+        <TextBox x:Name="for_input" Grid.Column="1" Grid.Row="3" Height="50" Margin="5"></TextBox>
+
+        <Button x:Name="BtnSave" Grid.ColumnSpan="2" Grid.Row="4" Height="35" Width="250" FontSize="25" Foreground="Green" Background="Snow" Click="BtnSave_Click">Save</Button>
+
+    </Grid>
+</Window>
