@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\у\Desktop\Лехе\AppUsers\obj\Debug\
+C:\Users\у\Desktop\Театр\AppUsers\obj\Debug\
 AppUsers
 none
 false
 DEBUG;TRACE
-C:\Users\у\Desktop\Лехе\AppUsers\App.xaml
-7-914504520
+C:\Users\у\Desktop\Театр\AppUsers\App.xaml
+7-1756725599
 
-161019425679
-57254623955
-ActorsView.xaml;AddTask.xaml;AuthWindows.xaml;MainWindow.xaml;PerfomanceView.xaml;PersonWindow.xaml;RoleView.xaml;
+161906370148
+57-679702386
+View\ActorsView.xaml;View\AddTask.xaml;View\AuthWindows.xaml;View\MainWindow.xaml;View\PerfomanceView.xaml;View\PersonWindow.xaml;View\RoleView.xaml;
 
 False
 
